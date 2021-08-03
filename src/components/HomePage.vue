@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home-page">
     {{ forumData }}
   </div>
 </template>
@@ -8,7 +8,7 @@
 import forumData from '@/data.json';
 
 export default {
-  name: 'Home',
+  name: 'HomePage',
   data() {
     return {
       forumData
